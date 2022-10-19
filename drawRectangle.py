@@ -16,6 +16,6 @@ blankImage = np.zeros((500, 500, 3), dtype = 'uint8')
 
 # cv.rectangle(blankImage, (0,0), (250, 500), (0, 0, 255), thickness = -1)  #to draw a solid rectangle statically
 
-cv.imshow('Drawing a hollow rectangle', blankImage)
+cv.imshow('Drawing a rectangle', blankImage)
 
 cv.waitKey(0)
